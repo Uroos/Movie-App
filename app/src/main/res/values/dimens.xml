@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin10">10dp</dimen>
+    <dimen name="margin_left">4dp</dimen>
+    <dimen name="togglebtn_width">64dp</dimen>
+    <dimen name="togglebtn_height">64dp</dimen>
+    <dimen name="margin_top">4dp</dimen>
+    <dimen name="margin_bottom">8dp</dimen>
+</resources>

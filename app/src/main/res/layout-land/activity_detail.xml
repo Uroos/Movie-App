@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".DetailActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_detail"
+                style="@style/DetailPoster"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:contentDescription="@string/contentdescription_movie_poster" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_title_detail"
+                        style="@style/TitleText.MovieTitle"
+                        tools:text="My Movie" />
+
+                    <ToggleButton
+                        android:id="@+id/btn_star"
+                        android:layout_width="@dimen/togglebtn_width"
+                        android:layout_height="@dimen/togglebtn_height"
+                        android:layout_marginRight="@dimen/margin_left"
+                        android:background="@drawable/button_favorite"
+                        android:checked="false"
+                        android:contentDescription="@string/contentdescription_mark_as_favorite"
+                        android:text=""
+                        android:textOff=""
+                        android:textOn=""
+                        tools:src="@drawable/button_favorite" />
+                </LinearLayout>
+
+                <TextView
+                    style="@style/TitleText.DescriptionTitle"
+                    android:text="@string/detail_description" />
+
+                <TextView
+                    android:id="@+id/tv_description_detail"
+                    style="@style/DescriptionText"
+                    android:layout_weight="2"
+                    tools:text="Here will go the description of the movie." />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_left"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TitleText.ReleaseTitle"
+                        android:text="@string/detail_date" />
+
+                    <TextView
+                        android:id="@+id/tv_date_detail"
+                        style="@style/ReleaseText" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_left"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TitleText.VotesTitle"
+                        android:text="@string/detail_votes" />
+
+                    <TextView
+                        android:id="@+id/tv_vote_detail"
+                        style="@style/VotesText" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!-- Implementing Trailer recycler view -->
+        <TextView
+            android:id="@+id/detail_title_trailer"
+            style="@style/TitleText.DescriptionTitle"
+            android:layout_marginTop="@dimen/margin_top"
+            android:text="@string/detail_trailers" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_trailers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top"
+            android:scrollbars="horizontal"
+            android:visibility="visible" />
+
+        <!-- Implementing Reviews recycler view. -->
+        <TextView
+            android:id="@+id/detail_title_review"
+            style="@style/TitleText.DescriptionTitle"
+            android:text="@string/detail_review" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_review"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:layout_marginTop="@dimen/margin_top"
+            android:visibility="visible" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_option_label">
+        <item>@string/pref_label_popular</item>
+        <item>@string/pref_label_toprated</item>
+        <item>@string/pref_label_favorite</item>
+    </array>
+    <array name="pref_option_values">
+        <item>@string/pref_value_popular</item>
+        <item>@string/pref_value_toprated</item>
+        <item>@string/pref_value_favorite</item>
+    </array>
+</resources>

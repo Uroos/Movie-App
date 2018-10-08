@@ -1,0 +1,58 @@
+<resources>
+    <!-- App labels.-->
+    <string name="app_name">MovieNight</string>
+    <string name="label_detail">Details</string>
+    <string name="label_setting">Settings</string>
+
+    <string name="error_message">An error has occured. Please try again.</string>
+    <string name="review_error_message">No reviews to display.</string>
+    <string name="query_apikey">api_key</string>
+
+    <!-- JSON key values for querying.-->
+    <string name="json_results">results</string>
+    <string name="json_title">title</string>
+    <string name="json_id">id</string>
+    <string name="json_votecount">vote_count</string>
+    <string name="json_posterpath">poster_path</string>
+    <string name="json_overview">overview</string>
+    <string name="json_date">release_date</string>
+    <string name="json_author">author</string>
+    <string name="json_content">content</string>
+    <string name="json_key">key</string>
+
+    <!-- Strings in Detail Activity.-->
+    <string name="detail_description">Description</string>
+    <string name="detail_date">ReleaseDate:</string>
+    <string name="detail_votes">Votes:</string>
+    <string name="detail_review">Reviews</string>
+    <string name="opt_title">Title not available</string>
+    <string name="opt_available">Overview not available</string>
+    <string name="opt_date">Date not available</string>
+    <string name="detail_share">Share</string>
+
+    <!-- Strings in Settings Activity.-->
+    <string name="settings">Settings</string>
+    <string name="fallback_author">no author found</string>
+    <string name="fallback_content">no content found</string>
+    <string name="fallback_key">no key found</string>
+    <string name="detail_trailers">Trailers</string>
+
+    <!-- Labels for Settings Activity.-->
+    <string name="pref_key">choice</string>
+
+    <string name="pref_label">Choices</string>
+    <string name="pref_label_popular">Popular</string>
+    <string name="pref_label_toprated">Top Rated</string>
+    <string name="pref_label_favorite">Favorites</string>
+
+    <!-- Value in SharedPreferences for User's choice.-->
+    <string name="pref_value_popular" translatable="false">popular</string>
+    <string name="pref_value_toprated" translatable="false">toprated</string>
+    <string name="pref_value_favorite" translatable="false">favorite</string>
+
+    <!-- Strings for email message. -->
+    <string name="email_subject">Checkout the trailer!!!</string>
+    <string name="email_body">Hi, I highly recommend checking out this movie. </string>
+    <string name="contentdescription_movie_poster">Movie poster</string>
+    <string name="contentdescription_mark_as_favorite">Mark as favorite</string>
+</resources>
