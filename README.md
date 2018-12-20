@@ -11,3 +11,7 @@ Most of us can relate to kicking back on the couch and enjoying a movie with fri
 <p>-Uses Android Architecture Components (Room, LiveData, ViewModel and Lifecycle) to create a robust an efficient application.</p>
 <p>-Database using Room is used to store the names and ids of the user's favorite movies .</p>
 <p>-Various libraries are used to simplify the amount of code written.</p>
+![screenshot_20181220-205618](https://user-images.githubusercontent.com/36559643/50300974-d28cc080-04a7-11e9-99c1-d1c8befaa6f8.png)
+![screenshot_20181220-205636](https://user-images.githubusercontent.com/36559643/50301179-76766c00-04a8-11e9-8e7c-0122c6850911.png)
+![screenshot_20181220-205701](https://user-images.githubusercontent.com/36559643/50301193-7d04e380-04a8-11e9-812d-f5e4fe88e526.png)
+![screenshot_20181220-205721](https://user-images.githubusercontent.com/36559643/50301216-8aba6900-04a8-11e9-8478-48194438e15d.png)
