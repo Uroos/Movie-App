@@ -14,12 +14,10 @@ Most of us can relate to kicking back on the couch and enjoying a movie with fri
 
 
 
-![](https://github.com/Uroos/Movie-App/blob/master/Screenshot_20190226-212814.png)
+<img src="https://github.com/Uroos/Movie-App/blob/master/Screenshot_20190226-212814.png" width="200" height="300" />
 
 
-
-![](https://github.com/Uroos/Movie-App/blob/master/Screenshot_20190226-212823.png)
-
+<img src="https://github.com/Uroos/Movie-App/blob/master/Screenshot_20190226-212823.png" width="200" height="300" />
 
 
-![](https://github.com/Uroos/Movie-App/blob/master/Screenshot_20190226-212901.png)
+<img src="https://github.com/Uroos/Movie-App/blob/master/Screenshot_20190226-212901.png" width="200" height="300" />
